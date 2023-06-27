@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+
+  font-family: 'Quicksand', sans-serif;
+
+  background-color: #F1F5F9;
+
+  color: black;
+
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+
+.d-flex{
+  display: flex;
+
+}
+
+.w-full{
+
+  width: full;
+
+}
+
+.d-grid{
+
+  display: grid;
+
+}
+
+.gap-20{
+
+  gap: 0px;
+
+}
+
+.p-12{
+
+  padding: 12px;
+
+}
+
+.m-18{
+
+  margin: 18px;
+
+}
+
+.m-15{
+
+  margin: 15px;
+
+}
+
+
+h2{
+
+  position: relative;
+
+  text-align: center;
+
+  font-size: 30px;
+
+}
+
+h4{
+
+  margin-bottom: 4px;
+
+}
+
+
+.pro{
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  width: 200px;
+
+}
+
+
+
+.wrapper0 {
+
+  grid-template-columns: repeat('auto-fill', minmax(450px, 1fr));
+
+  margin-left: 20px;
+
+  margin-right: 20px;
+
+}
+
+
+.wrapper1 {
+
+  grid-template-columns: repeat('auto-fill', minmax(450px, 1fr));
+
+  margin-left: 20px;
+
+  margin-right: 20px;
+
+}
+
+
+.cs{
+
+    position: relative;
+
+    font-size: 20px;
+    width: 275px;
+
+}
+
+.it {
+
+  position: relative;
+
+  font-size: 20px;
+  width: 275px;
+
+}
+
+.is {
+
+  position: relative;
+
+  font-size: 20px;
+  width: 275px;
+
+}
+
+.mm {
+
+  position: relative;
+
+  font-size: 20px; 
+  width: 275px;
+}
+
+
+.fir_term{
+
+  position: relative;
+
+  font-size: 18px;
+  width: 420px;
+
+}
+
+.sec_term {
+
+  position: relative;
+
+  font-size: 18px;
+  width: 420px;
+
+}

@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'); 
+body{
+font-family: 'Quicksand', sans-serif; 
+background-color: #F1F5F9;
+color: black; 
+		
+}
+.content {
+        overflow: hidden;
+}
+.p-11{
+        padding: 11px;
+}
+.w-full{
+        width: 100%;
+}
+.head .search::before{
+        font-family: var(--fa-style-family-classic);
+        content: "\f002";
+        font-weight: 900;
+        position: absolute;
+        left: 51px;
+        top: 4.5%;
+        transform: translatey(-50%)
+        font-size: 14px;
+        color: #888;
+}
+.head .search input{
+        border: 1.3px solid #ccc; 
+        border-radius: 10px ;
+        margin-left: 28px;
+        padding-left: 23px;
+        width: 160px;
+        transition: width 0.3s;
+        height: 35px ;
+}
+.head .search input:focus{
+        outline-color: #AAA;
+        width: 220px;
+}
+.head .search input:focus::placeholder {
+        opacity: 0;
+        border-radius: 10px ;
+}
+.head .icons img {
+        margin-left: 15px;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        padding : 2px;
+}
+.bg-bo{
+        background-color: white;
+        border-radius: 14px ;
+}
+
+.page{
+	background-color: #F1F5F9;
+	min-height: 100vh;
+}
+.between-flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*---------------------------------------------------------------------*/
+
+.logo_page{ 
+	text-align: center; 
+	font-size: 30px;
+	margin-top: 15px; 
+}
+.name_en_page{ 
+	text-align: center; 
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.name_page{ 
+	text-align: center; 
+	font-size: 35px;
+	margin-top: 20px; 
+}
+
+.lg_l{
+	position: relative;
+	right: 43px;
+}.lg_r{
+	position: relative;
+	left: 43px;
+}
+
+/*------------------------------------------------------------*/
+
+.photo{
+	background-color: white;
+	border: 1.3px solid #CCC;
+	border-radius: 10px;
+	padding: 7px;
+	margin: 0px 15px;
+	width: 560px;
+	height: 280px;
+	display: inline-block
+}
+img {
+	border: inherit;
+	marginleft : 10px ;
+}
+.mg{
+	border: 2px solid #CCC;
+	border-radius: 8px;
+	width: 130px;
+	height: 130px;
+    }
+.add{
+	background-color: #eee;
+	border: 1.3px solid #CCC;
+	border-radius: 10px;
+	padding: 33px;
+	margin: 0px 3px;
+	width: 130px;
+	height: 130px;
+	display: inline-block
+}
+
+/*---------------------------------------------------------------------*/
+
+*, :before, :after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+	/*max-width: 58rem;
+	width: 100%*/
+   	margin: 0 auto;
+}
+
+h2 {
+	border: 2px solid #eee;
+   	margin: 0 auto;
+
+	color: #fdb925;
+  	position: relative;
+	/*left: 165px;*/
+  	text-align: right ;
+  	padding: 8px 23px 8px 0px;
+	cursor: pointer;
+  	font-size: 1.8em;
+	line-height: 1.3;
+ 	font-family: "Linux 			
+	Libertine",Georgia,Times,serif;
+	border-bottom: solid 2px #E2E3E4;
+	border-right: solid 2px #E2E3E4;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.p1{
+	background-color: #eee;
+	border: 0.5px solid #2444D8;
+	border-radius: 10px;
+	position: relative;
+	left: 310px;
+	font-size: 20px;
+	text-align: right;
+	padding: 10px;
+	margin: 15px;
+	width: 630px;
+	display: inline-block
+}
+.p2{
+	background-color: #eee;
+	border: 0.5px solid #2444D8;
+	border-radius: 10px;
+	position: relative;
+	left: 310px;
+	font-size: 20px;
+	text-align: right;
+	padding: 10px;
+  	margin: 15px;
+  	width: 630px;
+ 	display: inline-block
+}
+.p3{
+	background-color: #eee;
+	border: 0.5px solid #2444D8;
+	border-radius: 10px;
+	position: relative;
+	left: 260px;
+	font-size: 20px;
+	text-align: right;
+ 	padding: 10px;
+ 	margin: 15px;
+  	width: 680px;
+  	display: inline-block
+}
+.p4{
+	background-color: #eee;
+	border: 0.5px solid #2444D8;
+ 	border-radius: 10px;
+	position: relative;
+	left: 110px;
+	font-size: 20px;
+	text-align: right;
+ 	padding: 10px;
+	margin: 15px;
+	width: 830px;
+	display: inline-block
+}
+.content {
+}
+/*.hide {
+	display: none;
+}*/
+.icon {
+ 	background-repeat: no-repeat;
+  	background-size: 24px auto;
+ 	overflow: hidden;
+  	min-height: 44px;
+  	min-width: 34px;
+}
+.icon-15px {
+ 	background-size: 16px auto;
+}
+
+.arrow-up { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAQCAYAAADnEwSWAAAAaklEQVR42r3QwQmAQAwAQUuwFEu6Ai3CEizFDmIEIaCvjGBg8zmOgUwR0SpnzrZs6f4VaM8iO7qgQiEgQQoqtAoo0LjfRhck6EpAghQEyEGAHATIQYAcBMjBwhpQDyzsecY39B2sM+b6rRPoYrvAv4SdqgAAAABJRU5ErkJggg==');
+}
+.arrow-down { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAQCAYAAADnEwSWAAAAeUlEQVR4Ab3RwQmAMBAF0S3BUiwpBVqEJViKHawLLhM8DgQPEwiB/w6JzPyt94jYq7saS8drr7qqre9A2Y1VEJsNfjABGgisHy3oIf7Mgx4C86CHwDzoITAPegjMgx4C86CHJubBw0JgHvQQmAc9BOZBD03Mg6eA6AGRXLvASs+J3wAAAABJRU5ErkJggg==');
+}
+.icon-text {
+ 	text-indent: 0px;
+ 	background-position: right center;  
+}
+
+/*------------------------------------------------*/
+
+.section {
+        border: 3px solid #ccc; 
+        border-radius: 10px ;
+        margint: 38px;
+        padding: 12px 0px 12px 15px;
+        position: relative;
+        left: 550px;
+        width: 170px;
+}
+.section .text {
+        align: center;
+        font-size: 25px;       
+}
+.section .text:focus{
+        background-color: #ccc;
+        color: blue;
+}
+
+/*---------------------------------------------------------------------*/
+
+.unit h3 {
+        font-size: 30px;
+        position: relative;
+        text-align: center;
+}
+.unit img {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        left: 30px;
+}
+.unit p {
+        font-size: 25px;
+        position: relative;
+        text-align: right;
+}
+.unit .icon::before {
+        content: "\f082";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.unit .icon a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+.unit .icon .fb:focus{
+        background-color: #ccc;
+        color: blue;
+}
+
+/*-----------------------------------------------------------*/
+
+.iconss p {
+        font-size: 25px;
+        position: relative;
+        text-align: right;
+}
+
+
+.iconss .e_mail::before {
+        content: "\f0e0";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.iconss .e_mail a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+
+.iconss .phone::before {
+        content: "\f095";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.iconss .phone a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+
+.iconss .location::before {
+        content: "\f041";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.iconss .location a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+
+.iconss .wibsite::before {
+        content: "\f0ac";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.iconss .wibsite a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+.iconss .wibsite .ws:focus{
+        background-color: #ccc;
+        color: blue;
+}
+
+.iconss .facebook::before {
+        content: "\f082";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: 900;
+        left: 51px;
+        position: absolute;
+        font-size: 24px;
+        color: #888;
+}
+.iconss .facebook a {
+        margin-left: 48px;
+        padding-left: 23px;
+        font-size: 20px;
+}
+.iconss .facebook .fb:focus{
+        background-color: #ccc;
+        color: blue;
+}
+
+/*---------------------------------------------------------------------*/
